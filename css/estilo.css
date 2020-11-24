@@ -1,0 +1,187 @@
+/*
+* 
+* @Francine Santos
+*/
+
+/*Layout*/
+
+html, body, #quem-somos{
+	height: 100%;
+	overflow-x: hidden;
+}
+body{
+	background: #f4d620;
+	background-attachment:fixed; 
+	font-family: Helvetica,Arial,sans-serif;	
+}
+
+/*Barra de navegação*/
+
+nav.navbar-transparente{
+	padding: 15px 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #f4d620;
+}
+
+.navbar-light .navbar-toggler{
+	color:rgba(255,255,255,.5);
+	border-color: rgba(255,255,255,0.5);
+}
+
+.divisor{
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+.quem-somos{
+    background-color: #f4d620;
+    color: white;
+}
+
+.servicos{
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contato{
+	background-color: #f4d620;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.contato ul{
+	list-style: none;
+}
+
+.contato ul li{
+	float: right;
+	margin: 0 5px;
+}
+
+.footer{
+	background-color: rgba(0,0,0,0.8);
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+}
+
+
+.padding{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius:500px;
+	-moz-border-radius:500px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+	padding: 10px 115px;
+	letter-spacing: 1em;
+}
+
+.btn-branco{
+	border: 2px solid white;
+	
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color:#f4d620; 
+}
+
+
+
+/*tipografia*/
+p{
+	color: white;
+}
+h1{
+	font-weight: 1000;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 80px;
+}
+
+h2{
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+	color: white;
+	font-size: 80px;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	h1{
+		font-size: 50px;
+	}
+
+	h2{
+		font-size: 50px;
+	}
+
+	.btn-custom{
+		display: none;
+		
+		
+	}
+
+	  }
+	
+	/* Small devices (landscape phones, 576px and up)*/
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		h1{
+			font-size: 60px;
+		}
+
+		h2{
+			font-size:60px ;
+		}
+		.btn-custom{
+			display: none;
+		}
+
+	}
+
+	
+	/* Medium devices (tablets, 768px and up)*/
+	@media (min-width: 768px) and (max-width: 991.98px) {
+		h1{
+			font-size: 70px;
+		}
+
+		h2{
+			font-size: 70px;
+		}
+		.btn-custom{
+			display: none;}
+		
+		.mapa{
+			width: 50%;
+		}
+		 }
+	
+	/*Large devices (desktops, 992px and up)*/
+	@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	
+		 }
+	
+	/* Extra large devices (large desktops, 1200px and up)*/
+	@media (min-width: 1200px) { 
+
+		}
